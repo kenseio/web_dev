@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>From Demo</title>
+</head>
+<body>
+  <h1>Login form</h1>
+  <!-- action - wheer the form send data to  -->
+  <!-- method - what HTTP method (get/post) -->
+  <form action="http://wikipedia.org" method="get">
+    <label for="email">E-mail:</label>
+    <input id="email" type="email" placeholder="aaa@example.com" required autofocus>
+    <label for="password">Password:</label>
+    <input id="password" type="password" placeholder="password" required>
+    <input type="submit" value="Login">
+  </form>
+
+  <form>
+    <p>Do you prefer dogs or cats?</p>
+    <label for="dogs">Dogs:</label>
+    <input type="radio" id="dogs" name="petchoice" value="dog!">
+    <label for="cats">Cats:</label>
+    <input type="radio" id="cats" name="petchoice" value="cat!">
+    <!-- nameはKey
+    valueはフォームから渡す値。
+    id はラベルの紐付け. uniqueになる
+    nameは複数のラジオボタンをひとまとめ
+    classは複数存在できる -->
+    <p>Whtat's your favorite color?</p>
+    <select class="" name="color">
+      <option value="orange">orange</option>
+      <option value=red"">Red</option>
+      <option value="yellow">Yellow</option>
+    </select>
+    <textarea name="txt" rows="8" cols="80"></textarea>
+    <button>Go!</button>
+  </form>
+</body>
+</html>
