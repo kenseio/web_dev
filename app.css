@@ -1,7 +1,19 @@
 h1 {
   color: #FF00F0;
+  background-attachment: rgb(200, 0, 0);
+  /* border-color: purple;
+  border-width: 5px;
+  border-style: solid; */
+  border: 2px solid rgb(255,100,20);
 }
 
 li {
   color: #4060b7;
+}
+
+body {
+  background: pink;
+  /* background: url(https://pre00.deviantart.net/f3cd/th/pre/i/2011/121/8/a/drawn_wood_grain_texture_by_german_popsicle-d3fdjmd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
